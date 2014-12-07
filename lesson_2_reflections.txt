@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	In the moment I initialize a repository a hidden file is createad (inside the folder you are) called .git.
+	I need to do that because that is way that git works, in other way I think that you won't be able to use git 
+	and all its characteristics.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	I think that the staging area is a special place where you put the files that will be committed.
+	The staging area could be helpful to know exactly what files should be committed.
