@@ -8,3 +8,8 @@ How is the staging area different from the working directory and the repository?
 	
 	I think that the staging area is a special place where you put the files that will be committed.
 	The staging area could be helpful to know exactly what files should be committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	The staging area could be use like a "pre-commit" because that is the place where we put the things that will be committed.
+	So every logical change will be put there, and in the moment we feel that it is correct we will make the commit.
