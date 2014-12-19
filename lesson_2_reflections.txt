@@ -29,3 +29,12 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	When two branches are merged a new branch is created. This new branch mixes the commits of each branch in chronological order, from the newest to the oldest.
 	It is very helpful to represent them in diagrams because in that way is easy to see what changes will be do in our project or repository.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging: 
+		Pros: To merge two branches you just need to put four words in the command line and it is fast.
+		Cons: There could be conflicts with the code when merging, specially when you work with other people's code.
+	Manual merging:
+		Pros: The conflicts disappear and you can see other people's contributions, at most, I believe, code.
+		Cons: This kind of merging requires time and attention.
