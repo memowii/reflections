@@ -23,4 +23,9 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	They are helpful because I can join different branches of the same project to see how this is composed and see how the different persons has
-	contributed to it. And it is also a map to know what is going to be merged. 
+	contributed to it. And it is also a map to know what is going to be merged.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When two branches are merged a new branch is created. This new branch mixes the commits of each branch in chronological order, from the newest to the oldest.
+	It is very helpful to represent them in diagrams because in that way is easy to see what changes will be do in our project or repository.
