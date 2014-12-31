@@ -1,40 +1,60 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	In the moment I initialize a repository a hidden file is createad (inside the folder you are) called .git.
-	I need to do that because that is way that git works, in other way I think that you won't be able to use git 
-	and all its characteristics.
+	In the moment I initialize a repository a hidden file is createad (inside 
+	the folder you are) called .git.
+	I need to do that because that is way that git works, in other way I think
+	that you won't be able to use git and all its characteristics.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
 	
-	I think that the staging area is a special place where you put the files that will be committed.
-	The staging area could be helpful to know exactly what files should be committed.
+	I think that the staging area is a special place where you put the files 
+	that will be committed.
+	The staging area could be helpful to know exactly what files should be
+	committed.
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical 
+change?
 	
-	The staging area could be use like a "pre-commit" because that is the place where we put the things that will be committed.
-	So every logical change will be put there, and in the moment we feel that it is correct we will make the commit.
+	The staging area could be use like a "pre-commit" because that is the 
+	place where we put the things that will be committed.
+	So every logical change will be put there, and in the moment we feel that 
+	it is correct we will make the commit.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
 
-	I think that branches would be helpful when we want to apply different ideas to a project. With their help you can create several branches
-	and watch how your ideas look like. If that idea didn't work for us, then we could easily go back to the branch master. Or in the case that we would like
-	the new changes we could merge those changes to the branch master.
+	I think that branches would be helpful when we want to apply different 
+	ideas to a project. With their help you can create several branches and 
+	watch how your ideas look like. If that idea didn't work for us, then we
+	could easily go back to the branch master. Or in the case that we would 
+	like the new changes we could merge those changes to the branch master.
 
 How do the diagrams help you visualize the branch structure?
 
-	They are helpful because I can join different branches of the same project to see how this is composed and see how the different persons has
-	contributed to it. And it is also a map to know what is going to be merged.
+	They are helpful because I can join different branches of the same project
+	to see how this is composed and see how the different persons has 
+	contributed to it. And it is also a map to know what is going to be 
+	merged.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
 
-	When two branches are merged a new branch is created. This new branch mixes the commits of each branch in chronological order, from the newest to the oldest.
-	It is very helpful to represent them in diagrams because in that way is easy to see what changes will be do in our project or repository.
+	When two branches are merged a new branch is created. This new branch 
+	mixes the commits of each branch in chronological order, from the newest 
+	to the oldest.
+	It is very helpful to represent them in diagrams because in that way is 
+	easy to see what changes will be do in our project or repository.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
 
 	Git's automatic merging: 
-		Pros: To merge two branches you just need to put four words in the command line and it is fast.
-		Cons: There could be conflicts with the code when merging, specially when you work with other people's code.
+		Pros: To merge two branches you just need to put four words in the 
+			  command line and it is fast.
+		Cons: There could be conflicts with the code when merging, specially 
+			  when you work with other people's code.
 	Manual merging:
-		Pros: The conflicts disappear and you can see other people's contributions, at most, I believe, code.
+		Pros: The conflicts disappear and you can see other people's 
+			  contributions, at most, I believe, code.
 		Cons: This kind of merging requires time and attention.
