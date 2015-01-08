@@ -30,12 +30,22 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It is useful because with this copy we could be able to know what changes
+    would be merge with your current project, or how those changes could affect
+    the current project.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    In collaborating with others, first I would ask them for the code of their
+    projects, then I would make my changes and send them back the code, with 
+    an explation about the new features that I have implemented in their code,
+    this could be known like the hardest way to collaborate with others.
+    Git and GitHub would be the easiest way to collaborate with others, because
+    they offer an easy way to share and visualize code that was changed or added
+    by other people, moreover, as we already know Git can show us a complete
+    history of all the changes and evolutions of the code, giving us a clear 
+    idea about the project.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
