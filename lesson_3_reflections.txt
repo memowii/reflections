@@ -50,4 +50,12 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would like to make changes in a separate branch when I wanted to test a 
+    new feature in my project or make an experiment.
+    Working on master: All is always up to update, and you don't have to be
+                       worried for the changes of others, because you are always
+                       seeing them.
+    Working with branches: This is more organized than just working with master.
+                           But it requires a lot of work from the user, because
+                           when doing the merges conflicts could appear and then
+                           need to be fixed.
