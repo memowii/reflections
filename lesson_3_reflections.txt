@@ -1,8 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    It would be when I wanted to share my projects with other people. Using 
-    GitHub I think that taks is easier.
+    It would be when I wanted to collaborate with other people in their own
+    projects. Or I could also use them when I want to share my code with others,
+    with the purpose of improving my project or just playing.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
